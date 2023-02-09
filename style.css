@@ -3,5 +3,6 @@
 }
 
 .receta {
-    flex-basis: 25px;
+    display: flex;
+    flex-basis: 25px
 }
