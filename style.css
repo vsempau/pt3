@@ -1,0 +1,7 @@
+.grid {
+    display: flex
+}
+
+.receta {
+    flex-basis: 25px;
+}
