@@ -81,7 +81,8 @@ footer li {
   .tabla-recetas-all{
     border-collapse:collapse;
     border-spacing:0;
-    width:100%;display:table
+    width:100%;display:table;
+
   }
   .tabla-recetas-all{
       border:1px solid #ccc
@@ -90,7 +91,10 @@ footer li {
       border-bottom:1px solid #ddd
   }
   .tabla-recetas-all tr:nth-child(even){
-      background-color:#f1f1f1
+      background-color:white
+  }
+  .tabla-recetas-all tr{
+    background-color:#e9e3e3 
   }
   .tabla-table td,.tabla-table th,.tabla-recetas-all td,.tabla-recetas-all th{
       padding:8px 8px;
@@ -98,9 +102,15 @@ footer li {
       text-align:left;
       vertical-align:top
   }
-.seccion-receta {
-  display:block;
-  text-align: left;
-  padding-left: 400px;
-  padding-right: 400px;
+  intro-recetas {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 18%;
+    padding-right: 18%;
   }
+  .seccion-receta {
+    display:block;
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 400px;
+    }
