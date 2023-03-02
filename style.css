@@ -1,5 +1,5 @@
 header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -24,7 +24,7 @@ header li {
   padding: 10px;
 }
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -61,3 +61,4 @@ footer li {
     flex:100;
   }
 
+'''
