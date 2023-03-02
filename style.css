@@ -3,12 +3,21 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: white;
   text-align: center;
   overflow: auto;
   white-space: nowrap;
   padding: 0px 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p.receta {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 header a {
   display: inline-block;
@@ -23,6 +32,14 @@ header li {
   text-align: center;
   padding: 10px;
 }
+body{
+  background-color: rgb(236, 213, 243);
+}
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;}
+
+
 footer {
   position: relative;
   left: 0;
@@ -80,4 +97,10 @@ footer li {
       display:table-cell;
       text-align:left;
       vertical-align:top
+  }
+.seccion-receta {
+  display:block;
+  text-align: left;
+  padding-left: 400px;
+  padding-right: 400px;
   }
