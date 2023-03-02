@@ -65,23 +65,23 @@ footer li {
   padding: 10px;
 }
 .grid {
-    float: right;
-    width: 33%;
-    padding: 50px;
-    height: 500px;
-    display: flex;
-  }
+  float: right;
+  width: 33%;
+  padding: 50px;
+  height: 500px;
+  display: flex;
+}
 
-  .receta::after {
-    content: "";
-    clear: both;
-    flex:100;
-  }
+.receta::after {
+  content: "";
+  clear: both;
+  flex:100;
+}
 
-  .tabla-recetas-all{
-    border-collapse:collapse;
-    border-spacing:0;
-    width:100%;display:table;
+.tabla-recetas-all{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;display:table;
 
   }
   .tabla-recetas-all{
@@ -103,7 +103,7 @@ footer li {
       vertical-align:top
   }
   intro-recetas {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     padding-left: 18%;
     padding-right: 18%;
