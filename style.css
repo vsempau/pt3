@@ -123,3 +123,14 @@ footer li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large
   }
+  object {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 3000px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
