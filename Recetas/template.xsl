@@ -48,14 +48,14 @@
         </style>
       </head>
       <body>
-        <xsl:apply-templates />
+        <xsl:apply-templates select="recetas/receta[position()=1]"/>
       </body>
     </html>
   </xsl:template>
 
   <xsl:template match="recetas">
     <h1>Recetas de San Valentín</h1>
-    <xsl:apply-templates />
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="receta">
@@ -95,14 +95,18 @@
     <p><xsl:value-of select="." /></p>
   </xsl:template>
 
-  <xsl:template match="ingrediente">
+  <xsl:template match="ingredientes">
     <h2>Ingredientes</h2>
-    <p><xsl:value-of select="." /></p>
+    <ol><xsl:for-each select="ingrediente">    
+    <li><p><xsl:value-of select="." /></p></li>
+    </xsl:for-each></ol>  
   </xsl:template>
 
   <xsl:template match="pasos">
     <h2>Pasos</h2>
-    <p><xsl:value-of select="." /></p>
+    <ol><xsl:for-each select="paso">    
+    <li><p><xsl:value-of select="." /></p></li>
+    </xsl:for-each></ol>  
   </xsl:template>
 
   <xsl:template match="notas">
